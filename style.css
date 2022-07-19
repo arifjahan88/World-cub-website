@@ -123,3 +123,25 @@ body{
 .last-part-details p{
     margin-left: 30px;
 }
+
+/*----------------------------- 
+Upcoming Match page style here 
+------------------------------*/
+.match-flags{
+    display: flex;
+    text-align: center;
+}
+.match-flags img{
+    padding: 25px;
+}
+.match-details{
+    text-align: center;
+}
+.match-details h5{
+    margin: 0;
+    margin-bottom: 40px;
+}
+.match-details h1{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
