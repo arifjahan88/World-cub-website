@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* banner parts design starts Here */
+.banner-parts{
+    width: 90%;
+    height: 600px;
+    background: #161616;
+    border-radius: 30px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.banner-part{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    
+}
+.banner-details{
+    width: 500px;
+    padding-left: 50px;
+}
+.banner-details h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.banner-image img{
+    width: 522px;
+    padding-left: 100px;
+}
+.banner-button{
+    background-color: #DD0000;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Video Part Style Here */
+.middle-parts{
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.middle-part{
+    display: flex;
+}
+.bars{
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.video-parts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 100px;
+}
+.video-part{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 15px;
+}
+.video-part-details{
+    padding: 5px;
+}
+.video-part a{
+    text-decoration: none;
+    border: 1px solid #161616 ;
+    color: #161616;
+    padding: 0 10px;
+    margin-right: 210px;
+    border-radius: 5px;
+}
+.video-part p{
+    width: 300px;
+}
+.bars-button{
+    text-decoration: none;
+    background-color: white;
+    color: #161616;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.bars-button:hover{
+    background-color: #DD0000;
+    color: white;
+}
+/* Footer Part style start Here */
+.last-part{
+    background-color: #161616;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding-top: 20px;
+
+}
+.last-part h1{
+    font-size: 40px;
+}
+.last-part hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 120px;
+}
+.last-part-details {
+    display: flex;
+    justify-content: center;
+}
+.last-part-details p{
+    margin-left: 30px;
+}
