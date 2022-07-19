@@ -52,6 +52,8 @@ body{
 }
 .middle-part{
     display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 .bars{
     display: flex;
@@ -64,7 +66,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .video-part{
     display: grid;
@@ -91,9 +93,9 @@ body{
     background-color: white;
     color: #161616;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 .bars-button:hover{
     background-color: #DD0000;
@@ -122,6 +124,11 @@ body{
 }
 .last-part-details p{
     margin-left: 30px;
+}
+.fa-brands{
+    color: aliceblue;
+    margin-left: 15px;
+    font-size: 30px;
 }
 
 /*----------------------------- 
