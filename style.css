@@ -181,7 +181,9 @@ Upcoming Match page style here
 /*------------------------- 
 Media queries Start Here 
 ---------------------------*/
-@media only screen and (max-width: 500px) {
+
+/* Mobile Mode styles start Here */
+@media only screen and (max-width: 577px) {
     /* banner part media */
     .banner-part{
         flex-direction: column;
@@ -237,7 +239,9 @@ Media queries Start Here
         
     }
 }
-@media only screen and (min-width: 501px) and (max-width: 904px){
+
+/* Tablet Mode style starts here */
+@media only screen and (min-width: 578px) and (max-width: 900px){
     /* banner part start Here */
     .banner-parts{
         width: 90%;
