@@ -176,7 +176,7 @@ Upcoming Match page style here
 /*------------------------- 
 Media queries Start Here 
 ---------------------------*/
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
     /* banner part media */
     .banner-part{
         flex-direction: column;
@@ -232,7 +232,7 @@ Media queries Start Here
         
     }
 }
-@media only screen and (min-width: 376px) and (max-width: 834px){
+@media only screen and (min-width: 501px) and (max-width: 904px){
     /* banner part start Here */
     .banner-parts{
         width: 90%;
