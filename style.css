@@ -102,6 +102,10 @@ body{
     background-color: #DD0000;
     color: white;
 }
+.button-color-fixed{
+    background-color: #DD0000;
+    color: white;
+}
 /* Button part style here */
 .button-part{
     margin: 20px;
