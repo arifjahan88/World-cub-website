@@ -14,6 +14,7 @@ body{
     align-items: center;
     margin: 0 auto;
     margin-top: 50px;
+    transition: background-color 1s ease-in-out;
 }
 .banner-part{
     display: flex;
@@ -22,6 +23,10 @@ body{
     padding-top: 50px;
     justify-content: center;
     
+    
+}
+.banner-parts:hover{
+    background-color: #008404;
 }
 .banner-details{
     width: 500px;
